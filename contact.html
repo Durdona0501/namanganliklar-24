@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/contact.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="./index.html"><img class="logo" src="./images/namanganliklar24.svg" alt="logo" width="306" height="33"></a>
+        <ul class="currency">
+          <li class="currency-list"><span class="value">$</span>101372</li>
+          <li class="currency-list"><span class="value">P</span>138.26</li>
+          <li class="currency-list"><span class="value">E</span>10988.72</li>
+        </ul>
+
+        <div class="buttons">
+          <button class="search-btn"><img class="lupa" src="./images/search.svg" alt="lupa" width="24" height="24"></button>
+          <button class="lang-btn"><img class="flag" src="./images/flag-ru.svg" alt="flag-ru" width="21" height="21"><span class="ru">PY</span></button>
+          <a class="follow-link" href="#"><img class="tg-icon" src="./images/telegram.svg" alt="telegram" width="21" height="21"><span class="follow">Подписатся</span></a>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <ul class="navbar">
+          <li class="navbar-list"><a class="navbar-list-link" href="#">Узбекистана</a></li>         
+          <li class="navbar-list"><a class="navbar-list-link" href="#">Мир</a></li>
+          <li class="navbar-list"><a class="navbar-list-link" href="#">Экономика</a></li>
+          <li class="navbar-list"><a class="navbar-list-link" href="#">Политика</a></li>
+          <li class="navbar-list"><a class="navbar-list-link" href="#">Общество</a></li>
+          <li class="navbar-list"><a class="navbar-list-link" href="#">Технологии</a></li>
+          <li class="navbar-list"><a class="navbar-list-link" href="#">Спорт</a></li>
+          <li class="navbar-list"><a class="navbar-list-link" href="#">Культура</a></li>
+          <li class="navbar-list"><a class="navbar-list-link" href="#">Происшествия</a></li>
+          <li class="navbar-list"><a class="navbar-list-link" href="#">Туризм</a></li>
+      </nav>
+
+      <aside class="header-aside"><a href="#"><img class="aside-banner" src="./images/banner.jpg" alt="aside-banner"></a></aside>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <h2 class="contact-heading">Напишите нам</h2>
+        <div class="contact">
+          <form class="form" action="https://echo.htmlacademy.ru" method="get" autocomplete="off">
+            <label class="label" for="username">
+              <input class="input" type="text" name="username" id="username" placeholder="Имя">
+            </label>
+
+            <label class="label" for="email">
+              <input class="input" type="email" name="email" id="email" placeholder="Электронная почта">
+            </label>
+
+            <label class="label" for="phone_number">
+              <input class="input" type="tel" name="phone_number" id="phone_number" placeholder="Номер телефона">
+            </label>
+
+            <label class="label" for="theme">
+              <input class="input" type="text" name="theme" id="theme" placeholder="Тема">
+            </label>
+
+            <label class="label">
+              <textarea class="textarea" name="text" placeholder="Текст"></textarea>
+            </label>
+
+            <label class="label" for="file">
+              <input class="input" type="file" name="file" id="file" placeholder="Прикрепить файл">
+            </label>
+
+            <label class="label" for="code">
+              <input class="input" type="text" name="code" id="code" placeholder="Код">
+            </label>
+
+            <button class="submit-button" type="submit">Отправить</button>
+
+          </form>
+
+          
+
+          <div class="card">
+            <a class="card-logo" href="./index.html"><img src="./images/namanganliklar24.svg" alt="logo" width="306" height="33"></a>
+            
+            <ul class="card-list">
+              <li class="card-item">
+                <p class="card-content">Электронная почта</p>
+                <a class="email-link" href="./index.html">info@namanganliklar24.uz</a>
+              </li>
+
+              <li class="card-item">
+                <p class="card-content">Социальные сети</p>
+                <ul class="card-inner-list">
+                  <li class="sublist-item"><a class="social-media" href="#"><img src="./images/facebook.svg" alt="facebook" width="32" height="32"></a></li>
+                  <li class="sublist-item"><a class="social-media" href="#"><img src="./images/twitter.svg" alt="twitter" width="32" height="32"></a></li>
+                  <li class="sublist-item"><a class="social-media" href="#"><img src="./images/odnoklasnik.svg" alt="odnoklasnik" width="32" height="32"></a></li>
+                </ul>
+              </li>
+
+              <li class="card-item">
+                <p class="card-content">Телеграм канал</p>
+                <a class="telegram" href="#"><span><img class="tg-icon" src="./images/cib_telegram.svg" alt="tg-join" width="20" height="20"></span>Подписатся</a>
+              </li>
+
+              <li class="card-item">
+                <p class="card-content">Мобильная приложение</p>
+                <ul class="card-inner-list">
+                  <li class="sublist-item"><a class="social-media" href="#"><img src="./images/googleplay-2.svg" alt="googleplay" width="111" height="33"></a></li>
+                  <li class="sublist-item"><a class="social-media" href="#"><img src="./images/appleStore-2.svg" alt="appstore" width="111" height="33"></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-info">
+        <a class="footer-logo-link" href="#"><img class="footer-logo" src="./images/logo-blue.png" alt="footer-logo"></a>
+        <p class="footer-content">Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</p>
+        <a class="tg-join-link" href="#"><img src="./images/cib_telegram.png" alt="telegram" > <span class="tg-join">Подписатся</span></a>
+      </div>
+
+      <div class="footer-inner">
+        <div class="site-abt">
+          <p class="site-abt-text">О сайте</p>
+          <p class="site-abt-text">Воспроизводство, копирование, тиражирование, распростране ние и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.</p>
+        </div>
+  
+        <ul class="footer-list">
+          <li class="footer-list-item"><a class="footer-list-link" href="#">Информация о сайте</a></li>   
+          <li class="footer-list-item"><a class="footer-list-link active" href="./contact.html">Напишите нам</a></li>
+          <li class="footer-list-item"><a class="footer-list-link" href="#">Реклама</a></li>
+          <li class="footer-list-item"><a class="footer-list-link" href="#">Прислать новость</a></li>
+        </ul>
+  
+        <ul class="footer-list">
+          <li class="footer-list-item"><a class="footer-list-link" href="#">Использование материалов</a></li>  
+          <li class="footer-list-item"><a class="footer-list-link" href="#">Темы дня</a></li>
+          <li class="footer-list-item"><a class="footer-list-link" href="#">Наша команда</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </footer>
+</body>
+</html>
